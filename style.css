@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 127, 127);
     padding: 20px;
   }
 
@@ -9,36 +9,45 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 40;
+    background-color: black;
   }
 
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #333;
   }
+  
   
   li {
-    float: left;
-  }
+    float: left;}
   
+  {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0 auto;
+    text-align: center;
+}
+
   li a {
-    display: block;
+    display: inline-block;
+    list-style-type: none;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: pink;
   }
   
-  p1 {color: white;}
-  h1 {color: white; text-size-adjust: 300; text-align: center;}
+  p1 {color: white; font-size: 25px}
+  h1 {color: white; font-size: 100px; text-align: center;}
 
   button {color: black;}
 
